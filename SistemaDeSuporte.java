@@ -45,7 +45,7 @@ public class SistemaDeSuporte
                 terminou = true;
             }
             else {
-                String resposta = respondedor.generateResponse();
+                String resposta = respondedor.gerarResposta();
                 System.out.println(resposta);
             }
         }

@@ -20,7 +20,7 @@ public class Respondedor
      * Gera uma resposta.
      * @return Uma string que deveria ser exibida como resposta.
      */
-    public String generateResponse()
+    public String gerarResposta()
     {
         return "Isto parece interessante. Dê mais informações...";
     }

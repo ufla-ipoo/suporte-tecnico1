@@ -32,8 +32,8 @@ public class LeitorDeEntrada
     public String obterEntrada()
     {
         System.out.print("> ");         // imprime o prompt
-        String inputLine = leitor.nextLine();
+        String linhaDeEntrada = leitor.nextLine();
 
-        return inputLine;
+        return linhaDeEntrada;
     }
 }
